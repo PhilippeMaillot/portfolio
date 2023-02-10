@@ -1,4 +1,7 @@
 .navbar{
+    border-radius: 20px;
+    padding: 4px 10px;
+    border : solid 1px;
     display: flex;
     position: sticky;
     align-items: left;
@@ -14,7 +17,28 @@
     padding: 10px 10px;
 }
 .background{
-    background-color: rgb(164, 174, 178);
+    background-color: rgb(140, 154, 157);
     background-blend-mode: darken;
     background-size: cover;
+}
+body{
+    background-color: rgb(238, 236, 236);
+}
+.cadre{
+    margin: auto;
+    background-color: rgb(200, 216, 231);
+    width: 800px;
+    padding: 32px;
+    border-radius: 20px;
+    position: relative;
+}
+.image-ronde{
+    width : 105px; height : 105px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+    position: absolute;
+    top: 3px;
+    right: 30px;
 }
