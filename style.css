@@ -41,7 +41,7 @@ body{
     -webkit-border-radius : 75px;
     border-radius : 75px;
     position: absolute;
-    top: 3px;
+    top: 5.5px;
     right: 30px;
 }
 .btn {
@@ -87,6 +87,3 @@ body{
       font-size: 1.2em;
     }
   }
- 
-  
-  
