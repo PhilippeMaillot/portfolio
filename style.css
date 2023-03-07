@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .navbar{
     border-radius: 20px;
     padding: 4px 10px;
     border : solid 1px;
     display: flex;
-    position: sticky;
     align-items: left;
     justify-content: left;
     top: 10px;
 }
 .nav-list{
-    width:50%;
     display: flex;
+    justify-content: center;
 }
 .nav-list li{
     list-style: none;
@@ -23,6 +23,8 @@
 }
 body{
     background-color: rgb(238, 236, 236);
+    font-family: 'Open Sans', sans-serif;
+    color: #303030;    
 }
 .cadre{
     margin: auto;
@@ -42,3 +44,31 @@ body{
     top: 3px;
     right: 30px;
 }
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #303030;
+    background-color: #99b1cb;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(140, 154, 157);
+  }
+  
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
