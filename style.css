@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+h1 {
+  text-align: center;
+}
 .navbar{
     border-radius: 20px;
     padding: 4px 10px;
@@ -62,6 +65,15 @@ body{
   nav {
     text-align: center;
     margin-bottom: 20px;
+  }
+  .slam {
+    float: left;
+    width: 50%;
+  }
+  
+  .sisr {
+    float: right;
+    width: 50%;
   }
   @media only screen and (max-width: 600px) {
     .btn {
