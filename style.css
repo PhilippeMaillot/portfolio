@@ -47,7 +47,7 @@ body{
     top: 5.5px;
     right: 30px;
 }
-.btn {
+.btn, .btn2 {
     display: inline-block;
     padding: 10px 10px;
     border-radius: 25px;
@@ -56,10 +56,12 @@ body{
     background-color: #99b1cb;
     transition: background-color 0.3s ease;
     margin-right: 10px;
-  }
-  
+  }  
   .btn:hover {
     background-color: rgb(140, 154, 157);
+  }
+  .btn2:hover {
+    background-color: rgb(200, 216, 231);
   }
   
   nav {
