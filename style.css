@@ -17,7 +17,7 @@ h1 {
 }
 .nav-list li{
     list-style: none;
-    padding: 10px 10px;
+    padding: 10px 7px;
 }
 .background{
     background-color: rgb(140, 154, 157);
@@ -75,6 +75,14 @@ body{
     float: right;
     width: 50%;
   }
+  .retour{
+    width : 55px; height : 60px;
+    border: none;
+    float:right
+}
+.retour:hover{
+  transform: scale(1.1);
+}
   @media only screen and (max-width: 600px) {
     .btn {
       display: block;
@@ -99,3 +107,4 @@ body{
       font-size: 1.2em;
     }
   }
+  
