@@ -90,8 +90,7 @@ body{
   @media only screen and (max-width: 600px) {
     .btn {
       display: block;
-      width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 10%;
     }
   }
   @media only screen and (min-width: 600px) {
@@ -109,6 +108,11 @@ body{
   @media only screen and (min-width: 992px) {
     .large {
       font-size: 1.2em;
+    }
+  }  
+  @media only screen and (max-width: 480px) {
+    .cadre {
+      width: 90%;
     }
   }
   
