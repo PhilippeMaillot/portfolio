@@ -29,7 +29,7 @@ body{
     background-image: url("./documents/fond.jpg");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    color: #303030;    
+    color: #424340;    
 }
 .cadre{
     margin: auto;
@@ -54,7 +54,7 @@ body{
     padding: 10px 10px;
     border-radius: 25px;
     text-decoration: none;
-    color: #303030;
+    color: #424340;
     background-color: #99b1cb;
     transition: background-color 0.3s ease;
     margin-right: 10px;
@@ -90,8 +90,7 @@ body{
   @media only screen and (max-width: 600px) {
     .btn {
       display: block;
-      width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 10%;
     }
   }
   @media only screen and (min-width: 600px) {
@@ -109,6 +108,11 @@ body{
   @media only screen and (min-width: 992px) {
     .large {
       font-size: 1.2em;
+    }
+  }  
+  @media only screen and (max-width: 480px) {
+    .cadre {
+      width: 90%;
     }
   }
   form {
