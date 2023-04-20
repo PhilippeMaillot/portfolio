@@ -5,9 +5,7 @@ h1 {
 .navbar{
     border-radius: 20px;
     padding: 4px 10px;
-    border : solid 1px;
     display: flex;
-    align-items: left;
     justify-content: left;
     top: 10px;
 }
@@ -20,20 +18,19 @@ h1 {
     padding: 10px 7px;
 }
 .background{
-    background-color: rgb(140, 154, 157);
     background-blend-mode: darken;
     background-size: cover;
 }
 body{
     background-color: rgb(238, 236, 236);
-    background-image: url("./documents/fond.jpg");
+    background-image: url("./documents/banner.png");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    color: #424340;    
+    color: rgb(197, 197, 197);    
 }
 .cadre{
     margin: auto;
-    background-color: rgb(200, 216, 231);
+    background-color: rgba(255, 255, 255, 0.263);
     width: 800px;
     padding: 32px;
     border-radius: 20px;
@@ -54,13 +51,12 @@ body{
     padding: 10px 10px;
     border-radius: 25px;
     text-decoration: none;
-    color: #424340;
-    background-color: #99b1cb;
+    color: #ffffff;
     transition: background-color 0.3s ease;
     margin-right: 10px;
   }  
   .btn:hover {
-    background-color: rgb(140, 154, 157);
+    background-color: rgb(0, 0, 0);
   }
   .btn2:hover {
     background-color: rgb(200, 216, 231);
@@ -79,11 +75,6 @@ body{
     float: right;
     width: 50%;
   }
-  .retour{
-    width : 55px; height : 60px;
-    border: none;
-    float:right
-}
 .retour:hover{
   transform: scale(1.1);
 }
@@ -140,6 +131,51 @@ body{
     background-color: red;
     color: #fff;
     font-size: 18px;
+  }  
+  .nav-list li img[type="linkedin"] {
+    margin: 10px;
   }
+  .Veille1, .Veille2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 55px;
+    color: black;
+  }
+  
+  .Veille1 h1, .Veille2 h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .Veille1 p, .Veille2 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .Veille1 hr, .Veille2 hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  .Veille1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Veille2 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
   
   
